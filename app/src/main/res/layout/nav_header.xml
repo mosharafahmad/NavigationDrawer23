@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fitsSystemWindows="true"
+    android:background="#2C1EE9"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/imageheader"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tricount"
+        android:scaleType="centerCrop"
+        android:padding="10dp"
+        />
+
+
+     <TextView
+         android:id="@+id/header_title"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Mosharaf Ahmad"
+         android:textStyle="bold"
+         android:textSize="30dp"
+         android:padding="10dp"
+         android:textColor="#ffffff"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mosharafahmadofficial@gmail.com"
+        android:textColor="#ffffff"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="15dp"
+        android:textSize="14sp" />
+
+
+
+
+</LinearLayout>
