@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-
-
-   <item
-       android:id="@+id/mosharaf_dental"
-       android:title="Mosharaf Dental"
-       android:icon="@drawable/home_24"
-       android:checkable="true"
-       />
+    <item
+        android:id="@+id/mosharaf_dental"
+        android:title="Mosharaf Dental"
+        android:icon="@drawable/home_24"
+        android:checkable="true" />
 
     <item
         android:id="@+id/Mostafiz_dental"
         android:title="Mostafiz"
         android:icon="@drawable/circle_24"
-        android:checkable="true"
-        />
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/second_fragment"
+        android:title="Second Fragment"
+        android:icon="@drawable/play_24"
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/third_fragment"
+        android:title="Third Fragment"
+        android:icon="@drawable/home_24"
+        android:checkable="true" />
 
 </menu>
